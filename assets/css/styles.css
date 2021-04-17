@@ -1,9 +1,18 @@
+
+/* ----BODY---- */
+
 body {
 	background-color: #f8f7f7;
 
 	font-family: 'Roboto', sans-serif;
 	font-weight: normal;
 }
+
+p {
+	font-weight: normal;
+}
+
+/* ----Div Perso---- */
 
 .Name {
     font-weight: bold;
@@ -13,10 +22,6 @@ body {
     border-width: 3px;
     border-style: solid;
     border-color:#575757;
-}
-
-p {
-	font-weight: normal;
 }
 
 .pp {
@@ -33,16 +38,18 @@ p {
     margin-left: 1px;
 }
 
-.col-md-4 {
-	
-}
-
 .info {
 	background-color: #ffff;
 	padding: 3px 10px;
 	margin-bottom: 0;
 	color: #757575;
 }
+
+.col-md-4 {
+	
+}
+
+
 
 .info p {
 	font-size: 1em;
