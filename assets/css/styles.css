@@ -1,0 +1,172 @@
+body {
+	background-color: #f8f7f7;
+
+	font-family: 'Roboto', sans-serif;
+	font-weight: normal;
+}
+
+.Name {
+    font-weight: bold;
+    color: rgb(65, 65, 65);
+    font-size: 22px;
+    padding: 2%;
+    border-width: 3px;
+    border-style: solid;
+    border-color:#575757;
+}
+
+p {
+	font-weight: normal;
+}
+
+.pp {
+    border-radius: 100px;
+    max-width: 100%;
+    height: auto;
+    ;
+}
+
+.perso {
+    background-color: rgb(255, 255, 255); 
+    padding-top: 20px; 
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+.col-md-4 {
+	
+}
+
+.info {
+	background-color: #ffff;
+	padding: 3px 10px;
+	margin-bottom: 0;
+	color: #757575;
+}
+
+.info p {
+	font-size: 1em;
+}
+
+.info i {
+	color: #ca2727;
+	padding-right: 10px;
+
+
+}
+
+.skills,
+.lang {
+    padding-top: 20px;
+	padding: 3px 10px;
+    padding-bottom: 10px;
+    background-color: rgb(255, 255, 255); 
+	color: #757575;
+    margin-top: 10px;
+    margin-left: 1px;
+}
+
+.skills h3,
+.lang h3 {
+	padding-bottom: 8px;
+	font-weight: bold;
+    font-size: 1.1em;
+}
+
+.skills i,
+.lang i {
+	padding-right: 10px;
+	color: #ca2727;
+}
+
+.skills h4,
+.lang h4 {
+    font-size: 1em;
+}
+
+.lang {
+	border-radius: 5px !important;
+}
+
+.work,
+.education,
+.summery,
+.hobbies {
+	margin-top: 9px;
+	background-color: #fff;
+	padding: 10px 7px 10px 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.work h3,
+.education h3,
+.summery h3,
+.hobbies h3 {
+	font-size: 1.8em;
+	color: #757575;
+	font-weight: bold;
+	padding-bottom: 20px;
+}
+
+.work i,
+.education i,
+.summery i,
+.hobbies i {
+	padding-right: 10px;
+	color: #ca2727;
+}
+
+.summery p {
+	color: #757575;
+	font-size: 1.2em;
+	text-transform: capitalize;
+}
+
+.work .exp h5,
+.education h5 {
+	font-size: 1.1em;
+	font-weight: normal;
+	color: #009688;
+}
+
+.work .exp p {
+	color: #757575;
+
+	text-transform: capitalize
+}
+
+.progress-bar {
+	background-color: #ca2727 !important;
+	height: 100%;
+
+}
+
+.label {
+	background-color: #ca2727
+}
+
+.progress {
+	height: 12px;
+}
+
+.social {
+	padding: 10px 0;
+	background-color: #ca2727;
+	color: #fff;
+
+}
+
+.social h4 {
+	font-weight: bold;
+}
+
+.social i {
+	color: #fff;
+}
+
+.hobbies li {
+	font-weight: normal;
+	color: #757575;
+	font-size: 1.3em;
+	padding-bottom: 7px;
+}
