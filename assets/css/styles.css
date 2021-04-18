@@ -9,7 +9,8 @@ body {
 }
 
 p {
-	font-weight: normal;
+	padding: 0px;
+	margin: 0px;
 }
 
 /* ----Div Perso---- */
@@ -35,7 +36,7 @@ p {
     background-color: rgb(255, 255, 255); 
     padding-top: 20px; 
     margin-top: 10px;
-    margin-left: 1px;
+    margin-left: 0px;
 }
 
 .info {
@@ -45,12 +46,6 @@ p {
 	color: #757575;
 }
 
-.col-md-4 {
-	
-}
-
-
-
 .info p {
 	font-size: 1em;
 }
@@ -58,11 +53,14 @@ p {
 .info i {
 	color: #ca2727;
 	padding-right: 10px;
-
-
 }
 
+/* ---Skills and Languages + divs --- */
+
 .skills,
+.about,
+.school,
+.workexp,
 .lang {
     padding-top: 20px;
 	padding: 3px 10px;
@@ -74,19 +72,29 @@ p {
 }
 
 .skills h3,
+.about h3,
+.school h3,
+.workexp h3,
 .lang h3 {
 	padding-bottom: 8px;
 	font-weight: bold;
     font-size: 1.1em;
+	color: black;
 }
 
 .skills i,
+.about i,
+.school i,
+.workexp i,
 .lang i {
 	padding-right: 10px;
 	color: #ca2727;
 }
 
 .skills h4,
+.about h4,
+.school h4,
+.workexp h4,
 .lang h4 {
     font-size: 1em;
 }
@@ -95,9 +103,11 @@ p {
 	border-radius: 5px !important;
 }
 
-.work,
-.education,
-.summery,
+/* ---CV Main--- */
+
+.workexp,
+.school,
+.about,
 .hobbies {
 	margin-top: 9px;
 	background-color: #fff;
@@ -105,41 +115,35 @@ p {
 	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.work h3,
-.education h3,
-.summery h3,
+.workexp h3,
+.school h3,
+.about h3,
 .hobbies h3 {
-	font-size: 1.8em;
-	color: #757575;
+	font-size: 1.1em;
+	color: black;
 	font-weight: bold;
-	padding-bottom: 20px;
+	padding-bottom: 15px;
 }
 
-.work i,
-.education i,
-.summery i,
+.workexp i,
+.school i,
+.about i,
 .hobbies i {
-	padding-right: 10px;
+	padding-right: 5px;
 	color: #ca2727;
 }
 
-.summery p {
-	color: #757575;
-	font-size: 1.2em;
-	text-transform: capitalize;
-}
-
-.work .exp h5,
-.education h5 {
-	font-size: 1.1em;
+.workexp .exp h5,
+.school h5 {
+	font-size: 1em;
 	font-weight: normal;
-	color: #009688;
+	color: #757575;
+	font-style: italic;
 }
 
-.work .exp p {
+.workexp .exp p {
 	color: #757575;
 
-	text-transform: capitalize
 }
 
 .progress-bar {
@@ -149,7 +153,11 @@ p {
 }
 
 .label {
-	background-color: #ca2727
+	background-color: #ca2727;
+	border-radius: 10%;
+	padding: 2px;
+	font-size: 80%;
+	color: white;
 }
 
 .progress {
