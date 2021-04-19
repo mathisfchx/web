@@ -39,6 +39,10 @@ p {
     margin-left: 0px;
 }
 
+.perso p {
+	padding: 3px;
+}
+
 .info {
 	background-color: #ffff;
 	padding: 3px 10px;
@@ -134,14 +138,17 @@ p {
 }
 
 .workexp .exp h5,
-.school h5 {
+.school h5, 
+.hobbies h5 {
 	font-size: 1em;
 	font-weight: normal;
 	color: #757575;
 	font-style: italic;
+	padding-bottom: 10px;
 }
 
-.workexp .exp p {
+.workexp .exp p,
+.hobbies p {
 	color: #757575;
 
 }
@@ -165,7 +172,7 @@ p {
 }
 
 .social {
-	padding: 10px 0;
+	padding: 3px 0;
 	background-color: #ca2727;
 	color: #fff;
 
@@ -176,12 +183,5 @@ p {
 }
 
 .social i {
-	color: #fff;
-}
-
-.hobbies li {
-	font-weight: normal;
-	color: #757575;
-	font-size: 1.3em;
-	padding-bottom: 7px;
+	color: white;
 }
